@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Service;
+
 class JsonExporter
 {
     public function export(array $data, string $path): void
