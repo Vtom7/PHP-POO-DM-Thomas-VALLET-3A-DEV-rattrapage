@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Csv;
+
 class CsvReader
 {
     private string $filePath;
