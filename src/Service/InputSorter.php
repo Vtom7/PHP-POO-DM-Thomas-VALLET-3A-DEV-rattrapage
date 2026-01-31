@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Service;
+
 class InputSorter
 {
     public function sort(CsvInput $input): CsvInput
