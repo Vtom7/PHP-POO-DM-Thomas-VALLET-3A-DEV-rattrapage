@@ -1,5 +1,13 @@
 <?php
 
+namespace App;
+
+use App\Csv\CsvReader;
+use App\Domain\CsvInput;
+use App\Domain\SimilarityCalculator;
+use App\Service\InputProcessor;
+use App\Service\JsonExporter;
+
 require_once __DIR__ . '/Csv/CsvReader.php';
 require_once __DIR__ . '/Service/InputProcessor.php';
 require_once __DIR__ . '/Service/JsonExporter.php';
