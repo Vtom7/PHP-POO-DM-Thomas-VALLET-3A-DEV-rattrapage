@@ -11,8 +11,10 @@ use App\Service\JsonExporter;
 
 require_once __DIR__ . '/Csv/CsvReader.php';
 require_once __DIR__ . '/Service/InputProcessor.php';
+require_once __DIR__ . '/Service/InputSorter.php';
 require_once __DIR__ . '/Service/JsonExporter.php';
 require_once __DIR__ . '/Domain/SimilarityCalculator.php';
+require_once __DIR__ . '/Domain/CsvInput.php';
 
 class Application
 {
