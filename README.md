@@ -27,7 +27,8 @@ L’objectif principal est de conserver exactement le même comportement fonctio
 │   │    └── JsonExporter.php             # Export des données triées en JSON
 ├── input.csv                             # Fourniture des données
 ├── sortedInput.json                      # Conservation des données triées
-└── index.php                             # Point d’entrée de la classe **Application**
+├── index.php                             # Point d’entrée de la classe **Application**
+└── README.md                             # Documentation du projet
 ```
 
 ## ▶️ Exécution
