@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Service;
+
 class InputProcessor
 {
     private array $leftList = [];
